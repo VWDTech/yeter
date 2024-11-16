@@ -8,7 +8,7 @@ const app = express()
 const port = process.env.PORT || 5001
 
 app.use(cors({
-    origin: '*', // İzin verilen domain
+    origin: 'https://turktelekomservices.netlify.app', // İzin verilen domain
     methods: ['GET', 'POST'], // İzin verilen HTTP metodları
 }));
 
